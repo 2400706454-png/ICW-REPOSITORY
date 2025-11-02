@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: rgb(249, 246, 246);
+}
+
+.welcome h1 {
+  color: #00bcd4;
+}
+
+.col-md-6 {
+  color: black;
+}
+
+.p-3 {
+  color: black;
+}
+
+.image {
+  text-align: center;
+}
+
+header {
+  background: #003e5b;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  background-color: #003e5b;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-links a:hover,
+.navbar-links a.active {
+  text-decoration: underline;
+  color: #00bcd4;
+}
+
+.network {
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.sub {
+  background: #00bcd4;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.sub:hover {
+  background: #0288a7;
+}
+
+.about,.services,.contact-form {
+  width: 90%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.welcome h2,.welcome p {
+  text-align: center;
+}
+
+.welcome img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.services h2 {
+  color: black;
+}
+
+.service-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.service-grid article {
+  background: white;
+  color: black;
+  padding: 15px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.service-grid img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.contact-form {
+  color: black;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+input,textarea,select {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+footer {
+  background: #002b5b;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 0px;
+}
+
+.platforms a {
+  color: #00bcd4;
+  margin: 0 8px;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .service-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .network {
+    padding: 60px 20px;
+  }
+}
